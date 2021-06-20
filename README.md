@@ -1,6 +1,7 @@
 # Servo Library
 Servo Motor library for stm32 series
 
+## Release
 ### Version : 1.0.0
 
 - #### Type : Embedded Software
@@ -19,6 +20,7 @@ Servo Motor library for stm32 series
 - #### Required Library/Driver :
 
 
+## Overview 
 ### Initialization and de-initialization functions:
 ```c++
 void Init(TIM_HandleTypeDef *htim, uint32_t channel, uint16_t minPPMPulseWidth, uint16_t maxPPMPulseWidth, float maxAngle);
@@ -32,9 +34,9 @@ void SetAngle(float ang);
 
 ### Macros:
 
-## How to use this library
+## Guide
 
-### This library can be used as follows:
+#### This library can be used as follows:
 #### 1.  Add .h and source file in project.      
 #### 2.  Create Servo object and initialize it, for example:  
 - #### Mode 1 (constructor):  
@@ -82,6 +84,8 @@ myMotor.SetAngle(20);
 myMotor.SetPPMPulseWidth(400);
 ```  
           
+## Examples  
+
 #### Example 1: 
    ```c++
    int main()
@@ -106,4 +110,5 @@ myMotor.SetPPMPulseWidth(400);
 ## Tests performed:
 - [x] Run on STM32 Fx cores();
 
-#### Developer: Majid Derhambakhsh
+## Developers: 
+- ### Majid Derhambakhsh
