@@ -111,7 +111,7 @@ myMotor.SetPPMPulseWidth(400);
    ```
     
 ## Tests performed:
-- [x] Run on STM32 Fx cores;
+- [x] Run on STM32 Fx cores
 
 ## Developers: 
 - ### Majid Derhambakhsh
