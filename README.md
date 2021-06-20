@@ -2,7 +2,7 @@
 Servo Motor library for stm32 series
 
 ## Release
-### Version : 1.0.0
+- #### Version : 1.0.0
 
 - #### Type : Embedded Software
 
@@ -33,6 +33,9 @@ void SetAngle(float ang);
 ``` 
 
 ### Macros:
+```diff  
+non   
+```
 
 ## Guide
 
